@@ -1,0 +1,179 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+#title {
+  background-color: #297bf8;
+  text-align: left;
+  padding-bottom: 2%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  padding-bottom: 0%;
+}
+
+/* sections */
+.colored-section {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* headings */
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Title image */
+.title-image {
+  width: 70%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 20%;
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 4%;
+}
+
+.features-text {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+.image-jessica {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.fitness-friends {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-indicators {
+  position: relative;
+}
+
+/* press logos */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 20px;
+}
+
+.pricing-header {
+  padding-top: 50px;
+}
+
+.card-deck {
+  margin: 5% 10% 10% 10%;
+}
+
+.row {
+  padding: 0% 7%;
+}
+
+/* screen responsiveness */
+@media(max-width:1200px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+}
+
+/* cta section */
+.cta-heading {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+/* footer section */
+.socials {
+  padding: 20px;
+}
+
+.copyright {
+  color: #8f8f8f;
+}
+
+#footer {
+  padding-bottom: 1%;
+}
+
+/* small refactoring adjustment */
+.padding-refactor {
+  padding: 5% 15%;
+}
